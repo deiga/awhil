@@ -4,5 +4,12 @@
     ":masterIssue",
     "group:linters",
     "group:allNonMajor"
+  ],
+  "packageRules": [
+    {
+      "packageNames": ["aws-sdk"],
+      "groupName": "Automerge packages",
+      "automerge": true
+    }
   ]
 }
